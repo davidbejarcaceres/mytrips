@@ -88,7 +88,7 @@ export class Tab2Page {
       this.urlImages.forEach(url => {
         console.log(url);              
       });
-      var url = `http://localhost:3000/api/travelers/${this.idTraveler}/images/names`;
+      var url = `http://dbc770nodejs.westeurope.cloudapp.azure.com:3000/api/travelers/${this.idTraveler}/images/names`;
     })
   }
 
